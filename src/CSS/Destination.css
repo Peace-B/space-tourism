@@ -1,0 +1,280 @@
+@media(max-width:767px){
+.destination-body {
+    background: url(../images/background-destination-mobile.jpg);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+}
+
+.h-header{
+    padding: 6rem 0 3rem 0;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.h-header span {
+    color: gray;
+    padding-right: 4px;
+}
+
+.left-side-dest {
+    height: 50%;
+}
+
+.dest-img {
+    width: 150px;
+    height: 150px;
+}
+
+.btn-dest {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem 0;
+    border: none;
+}
+
+.btn-dest button {
+    background-color: inherit;
+    border: none;
+    color: white;
+    font-weight: 100;
+    
+}
+
+.btn-dest button:hover {
+    border-bottom: 2px solid white;
+}
+
+.title-dest h2 {
+    font-weight: 300;
+    font-size: 5rem;
+}
+
+.title-dest {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+     margin-bottom: 2rem;      
+}
+
+.dest-para {
+    width: 70%;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.border-des {
+    width: 80%;
+    border: 1px solid gray;
+    margin: auto;
+}
+
+
+.ul-dest p{
+    color: #D0D6F9;
+    font-weight: 100;
+    font-size: 1.3rem;
+    padding-top: 1rem;
+    margin: 0;
+    }
+
+    .span-dest {
+        font-size: 2rem
+    }
+}
+
+@media(min-width:768px) and (max-width:1024px) {
+    .destination-body {
+        background: url(../images/background-destination-desktop.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        color: white;
+        text-align: initial;
+    }
+
+    .destination {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .h-header {
+        padding-top: 10rem;
+        font-weight: 100;
+
+    }
+
+    .h-header span {
+        color: gray;
+        padding: 0 8px 0 18px;
+    }
+
+    .dest-img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .btn-dest button {
+        background-color: transparent;
+        color: #D0D6F9;
+        border: none;
+        margin: 3rem 0 1rem 0;
+        margin-left: 1rem;
+        font-size: 1.2rem;
+        font-weight: 100;
+    }
+
+    .btn-dest button:hover {
+        color: white;
+        border-bottom: 1px solid white;
+    }
+
+    .right-side-dest {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title-dest {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title-dest h2 {
+        font-size: 7rem;
+        font-weight: 200;
+    }
+
+   .dest-para {
+       width: 65%;
+       font-weight: 100;
+       font-size: 20px;
+       text-align: center;
+       padding-bottom: 1rem;
+    } 
+
+    .border-des {
+        border: 1px solid gray;
+        width: 60%;
+        color: gray;
+    }
+
+    .ul-dest {
+        display: flex;
+        gap: 3rem;
+        padding-top: 2rem;
+        align-items: center;
+    }
+
+    .ul-dest p {
+        font-size: 18px;
+        font-weight: 100;
+    }
+}
+
+
+
+@media(min-width:1024px){
+    .destination-body {
+        background: url(../images/background-destination-desktop.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        color: white;
+        text-align: initial;
+    }
+    
+    .h-header {
+        padding-top: 7rem;
+        padding-left: 16rem;
+        font-size: 30px;
+        font-weight: 100;
+    }
+
+    .h-header span {
+        color: gray;
+    }
+
+    .dest-img {
+        width: 450px;
+        height: 450px;
+    }
+    
+    .destination {
+        display: flex;
+        align-items: center;
+        margin-top: 6rem;
+        gap: 8rem;
+    }
+    
+    .left-side-dest {
+        width: 50%;
+        padding-left: 14rem;
+    }
+    
+    .right-side-dest {
+        width: 50%;
+    }
+        
+    .title-dest h2 {
+        font-size: 4rem;
+        font-weight: 100;
+    }
+
+    .dest-para {
+        width: 50%;
+        font-weight: 200;
+        color: #D0D6F9;
+        padding-bottom: 2rem;
+    
+    }
+    
+    .btn-dest {
+        display: flex;
+        justify-content: start;
+        gap: 2rem;
+        padding: 2rem 0;
+        border: none;
+        padding: 1rem 0;
+    }
+    
+    .btn-dest button {
+        background-color: inherit;
+        border: none;
+        color: white;
+        font-weight: 100;
+    }
+    
+    .btn-dest button:hover {
+        border-bottom: 1px solid white;
+    }
+    
+    .border-des {
+        width: 50%;
+        border: 1px solid gray;
+    }
+    
+    
+    .ul-dest {
+        display: flex;
+        gap: 3rem;
+        padding-top: 1rem;
+    }
+    
+    .ul-dest p{
+    color: #D0D6F9;
+    padding-top: 0.5rem;
+    font-weight: 100;
+    font-size: 14px;
+
+    }
+}
+

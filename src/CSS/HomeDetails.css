@@ -1,0 +1,240 @@
+@media(max-width:767px){
+.home-body {
+    background-image: url(../images//background-home-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.home-content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6rem;
+    text-align: center;
+}
+
+.home-content h2 {
+    color: #D0D6F9;
+    margin-top: 6rem;
+    font-weight: 100;
+    font-size: 24px;
+}
+
+.home-content h1 {
+    font-size: 7em;
+    font-weight: 200;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+.home-writeup {
+    height: 50%;
+    width: 100%;
+}
+
+.home-writeup p {
+    width: 90%;
+    font-weight: 100;
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+    padding-left: 2rem;
+    
+}
+
+.circle {
+    height: 50%;
+    background-color: white;
+    padding: 4rem 3rem;
+    border-radius: 50%;
+
+}
+
+.circle button {
+    text-decoration: none;
+    background-color: white;
+    color: black;    
+    border: none
+}
+}
+
+@media(min-width:768px) and (max-width:1024px){
+
+.home-body {
+        background-image: url(../images/background-home-tablet.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
+
+.home-writeup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+    }
+
+.home-writeup h2 {
+    padding-top: 6rem;
+    font-size: 1.7rem;
+    color: #D0D6F9;
+    
+}
+
+.home-writeup h1 {
+    font-size: 10rem;
+    font-weight: 300;
+    color: white;
+}
+
+.home-writeup p {
+    font-size: 1.8rem;
+    width: 75%;
+    text-align: center;
+}
+
+
+.circle {
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle button{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+}
+
+
+
+@media(min-width:1025px){
+.home-body {
+    background: url(../images/background-home-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    align-items: initial;
+}
+
+.home-content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.home-writeup {
+    width: 50%;
+    margin-top: 10rem;
+    margin-left: 15rem;
+}
+
+
+.home-writeup h2 {
+    font-weight: 100;
+    font-size: 35px;
+    color: #D0D6F9;
+    
+}
+
+.home-writeup h1 {
+    color: white;
+    font-family: "Zen Antique", serif;
+    font-weight: 300;
+    font-size: 8rem;
+}
+
+.home-writeup p {
+    color: #D0D6F9;
+    font-weight: 100;
+    width: 50%;
+    font-size: 20px;
+    padding: 0;
+
+}
+
+.circle {
+    margin-top: 10rem;
+}
+
+
+.circle button {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    border: none;
+    text-decoration: none;
+    color: black;
+    font-weight: 200;
+    font-size: 25px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

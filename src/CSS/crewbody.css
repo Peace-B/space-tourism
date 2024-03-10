@@ -1,0 +1,276 @@
+@media(max-width:767px){
+.crew-body{
+    background: url(../images/background-crew-mobile.jpg);
+    background-size: cover;
+}
+
+.crew {
+    padding-top: 30px;
+}
+
+.title-crew h1{
+    color: white; 
+    padding-top: 3rem;
+    font-weight: 100;
+    font-size: 25px;
+    text-align: center;
+}
+
+.title-crew span {
+    color: gray;
+    padding-right: 1rem;
+    text-align: center;
+}
+
+.content-crew {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+.left-content-crew {
+    height: 50%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.left-content-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-content-info h2 {
+    padding-top: 1rem;
+    color: gray;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.left-content-info h1 {
+    color: white;
+    font: 100;
+    font-size: 2rem;
+}
+
+.left-content-info p {
+    width: 80%;
+    font-size: 17px;
+    text-align: center;
+    
+
+}
+
+.left-content-btn {
+    height: 20%;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-content-btn button {
+    padding: 8px 8px;
+    border-radius: 50%;
+    background-color: transparent;
+    background-color: rgb(72, 70, 70);
+    border: none;
+}
+
+.left-content-btn button:hover {
+    background-color: white;
+    color: black;
+}
+
+.right-content-crew {
+    height: 50%;
+}
+
+.right-content-crew img {
+    height: 350px;
+}
+}
+
+@media(min-width:768px) and (max-width:1024px) {
+    .crew-body {
+        background: url(../images/background-crew-tablet.jpg);
+        height: 100vh;
+        background-size: cover;
+        font-family: "Barlow Condensed", sans-serif;
+    }
+
+    .title-crew h1 {
+        color: white;
+        font-weight: 100;
+        font-size: 25px;
+        padding-top: 9rem;
+    }
+
+    .title-crew span {
+        color: gray;
+        padding: 0 14px 0 14px;
+    }
+
+    .left-content-crew {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left-content-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-content-info h2{
+        color: gray;
+        font-weight: 200;
+        padding-top: 3rem;
+    }
+
+    .left-content-info h1 {
+        color: white;
+        font-weight: 100;
+        font-size: 52px;
+    }
+
+    .left-content-info p {
+        width: 60%;
+        font-size: 23px;
+        font-weight: 200;
+        text-align: center;
+    }
+
+    .left-content-btn button {
+        padding: 8px;
+        border-radius: 50%;
+        background-color: rgb(82, 79, 79);
+        border: none;
+        align-items: center;
+        margin-left: 8px;
+        
+    }
+
+    .left-content-btn button:hover {
+        background-color: white;
+    }
+
+    .right-content-crew {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .right-content-crew img {
+        padding-top: 2rem;
+        width: 500px;
+        height: 500px;
+    }
+}
+
+
+@media(min-width:1025px){
+    .crew-body {
+        background: url("../images/background-crew-desktop.jpg");
+        height: 100vh;
+        background-size: cover;
+    }
+    
+    .crew {
+        padding-top: 140px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+    }
+    
+    .section-crew {
+        width: 80%;
+        height: 100%;  
+    }
+    
+    .title-crew {
+    font-weight: 200;
+    font-size: 1.5rem;
+    height: 10%;
+    }
+    
+    .title-crew h1 {
+        color: white;
+        font-weight: 100;
+        font-size: 1.7rem;
+        
+    }
+    .title-crew span {
+        color: gray;
+        padding-right: 30px;
+    }
+    
+    .content-crew {
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    }
+    
+    .left-content-crew {
+    color: white;
+    }
+    
+    .left-content-info {
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    
+    }
+    
+    .left-content-info h1 {
+        font-weight: 200;
+        font-size: 4rem;
+    }
+    
+    .left-content-info h2 {
+     font-weight: 100;
+     font-size: 2rem;
+     color: gray;
+     margin-top: 3rem;    
+    }
+    
+    .left-content-info p {
+    font-size: 1.3rem;
+    font-weight: 200;
+    width: 54%;
+    }
+    
+    .left-content-btn {
+        height: 10%;
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    .left-content-btn button {
+        padding: 10px 10px;
+        border-radius: 50%;
+        background-color: transparent;
+        background-color: rgb(72, 70, 70);
+        border: none;
+    }
+    
+    .left-content-btn button:hover {
+        background-color: white;
+    }
+
+    .right-content-crew {
+        height: 100%;
+    }
+    
+    .right-content-crew img {
+        height: 100%;
+    }
+}
